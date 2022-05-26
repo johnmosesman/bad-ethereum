@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"johnmosesman/bad-ethereum/accounts"
+	"johnmosesman/bad-ethereum/keys"
 )
 
 func main() {
@@ -12,4 +13,6 @@ func main() {
 	fmt.Println("hey")
 	fmt.Println("account nonce is", account.Nonce)
 	fmt.Println("account address is", account.Address)
+
+	keys.GenPrivateKey()
 }
