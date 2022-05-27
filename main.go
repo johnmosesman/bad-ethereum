@@ -14,6 +14,5 @@ func main() {
 	fmt.Println("account nonce is", account.Nonce)
 	fmt.Println("account address is", account.Address)
 
-	// keys.GenPrivateKey()
-	keys.GenECDSA()
+	keys.PublicAddress("f8f8a2f43c8376ccb0871305060d7b27b0554d2cc72bccf41b2705608452f315")
 }
